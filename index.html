@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css"> -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/adaptive.css">
+
+  <title>Evclide</title>
+</head>
+
+<body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <header class="header">
+    <div class="container">
+      <div class="header-container">
+        <button class="header-burger" id="burger"><span class="header-burger-item"></span></button>
+        <a href="#" class="header-logo">
+          <!-- <img src="img/Logo.svg" alt="Logo"> -->
+        </a>
+        <nav class="header-list-wrap">
+          <ul class="header-list" id="menu">
+            <li class="header-list-item">
+              <a href="" class="header-link">О нас</a>
+            </li>
+            <li class="header-list-item">
+              <a href="" class="header-link">Проекты</a>
+            </li>
+            <li class="header-list-item">
+              <a href="" class="header-link">Этапы</a>
+            </li>
+            <li class="header-list-item">
+              <a href="" class="header-link">Отзывы</a>
+            </li>
+            <li class="header-list-item">
+              <a href="" class="header-link">Контакты</a>
+            </li>
+          </ul>
+
+        </nav>
+        <button class="header-search"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slide-1">
+              <div class="hero-container-wrap">
+                <h1 class="hero-title">Проектные решения любой сложности</h1>
+                <p class="hero-text">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день
+                  остаются уделом проектантов</p>
+                <button class="hero-button">Заказать расчёт</button>
+              </div>
+            </div>
+            <div class="swiper-slide slide-2"></div>
+            <div class="swiper-slide slide-3"></div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div class="container">
+        <div class="about-container-top">
+          <div class="about-container-top-wrap">
+            <h2 class="h2 about-title">О нас</h2>
+            <p class="about-text">Также как перспективное планирование создаёт необходимость включения в
+              производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по
+              своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы
+              вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как
+              самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный
+              прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в
+              отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего
+              проекта способствует повышению качества экспериментов.</p>
+          </div>
+        </div>
+
+        <div class="about-main-wrap">
+          <div class="about-left">
+            <!-- <img src="img/Worker.jpg" alt="Work" class="about-left-img"> -->
+            <div class="about-left-info">
+              <p class="about-left-info-text">Принимая во внимание показатели успешности, перспективное планирование
+                способствует подготовке и реализации новых принципов.</p>
+              <a href="#" class="about-left-info-button" aria-label="кнопка">Подробнее</a>
+            </div>
+          </div>
+          <div class="about-right">
+            <ul class="about-right-list">
+              <li class="about-list-item">
+                <div class="about-right-img">
+                  <picture class="about-right-img-item">
+                    <source srcset="img/cube320.svg" media="(max-width: 480px)">
+                    <img src="img/Cube.svg" alt="">
+                  </picture>
+                </div>
+                <div class="about-right-text">
+                  <h3 class="about-right-title">Консультация с широким активом</h3>
+                  <div class="about-right-description">А также свежий взгляд на привычные вещи - безусловно открывает
+                    новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</div>
+                </div>
+              </li>
+              <li class="about-list-item">
+                <div class="about-right-img about-right-img-setting">
+                  <picture class="about-right-img-item about-setting-img">
+                    <source srcset="img/settings320.svg" media="(max-width: 480px)">
+                    <img src="img/settings.svg" alt="cube">
+                  </picture>
+                </div>
+                <div class="about-right-text">
+                  <h3 class="about-right-title">В своём стремлении повысить </h3>
+                  <div class="about-right-description">Качество жизни, они забывают, что сплочённость команды
+                    профессионалов представляет собой интересный эксперимент проверки прогресса профессионального
+                    сообщества.</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="container work-container">
+        <div class="work-container">
+          <h2 class="h2 work-title">Как мы работаем</h2>
+          <nav>
+            <ul class="work-list">
+              <li class="work-list-step" aria-label="кнопка"><a href="#" class="work-list-step-link">1 шаг</a></li>
+              <li class="work-list-step" aria-label="кнопка"><a href="#" class="work-list-step-link">2 шаг</a></li>
+              <li class="work-list-step" aria-label="кнопка"><a href="#" class="work-list-step-link">3 шаг</a></li>
+              <li class="work-list-step" aria-label="кнопка"><a href="#" class="work-list-step-link">4 шаг</a></li>
+            </ul>
+          </nav>
+          <div class="work-main-wrap">
+            <div class="work-left">
+              <h3 class="work-left-title">Проводим консультацию</h3>
+              <p class="work-left-text">Влечет за собой процесс внедрения и модернизации приоритизации разума над
+                эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут
+                объективно рассмотрены соответствующими инстанциями. А также представители современных социальных
+                резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь
+                всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+                подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное
+                производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако
+                конкретные выводы, разумеется, призваны к ответу.</p>
+              <div class="work-left-buttons">
+                <a href="#" class="work-left-morebtn" aria-label="кнопка">Подробнее</a>
+                <a href="#" class="work-left-agreebtn" aria-label="кнопка">Договор</a>
+              </div>
+            </div>
+            <div class="work-right"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="qna">
+      <div class="container">
+        <h2 class="h2 qna-title">Часто задаваемые вопросы</h2>
+        <div id="accordion">
+          <h3>
+            <p class="qna-name" aria-label="заголовок элемента">Из чего формируется конечная стоимость проекта?</p>
+            <span class="qna-img-bg">
+              <picture class="qna-img">
+                <source srcset="img/plus480.svg" media="(max-width: 480px)"> <img src="img/Plus.svg" alt=""></picture>
+            </span>
+          </h3>
+          <div>
+            <p>
+              Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к
+              новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный
+              прототип будущего проекта является качественно новой ступенью первоочередных требований. А ещё некоторые
+              особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа
+              политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений,
+              что явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь,
+              должны быть указаны как претенденты на роль ключевых факторов.
+            </p>
+            <p>
+              Приятно, граждане, наблюдать, как некоторые Далеко-далеко за словесными горами в стране гласных и
+              согласных живут рыбные тексты. Она рекламных возвращайся своих жизни предупреждал деревни путь ручеек
+              алфавит лучше над. Своего коварный возвращайся рукописи пояс! Свой, страну буквоград. особенности
+              внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают
+              популярность среди определенных слоев населения, а значит, должны быть объединены в целые кластеры себе
+              подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым
+              свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном свете.
+            </p>
+          </div>
+          <h3>
+            <p class="qna-name">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</p><span
+              class="qna-img-bg">
+              <picture class="qna-img">
+                <source srcset="img/plus480.svg" media="(max-width: 480px)"> <img src="img/Plus.svg" alt=""></picture>
+            </span>
+          </h3>
+          <div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque praesentium officia qui neque
+              doloribus repudiandae, assumenda voluptatum vel recusandae illum!
+            </p>
+          </div>
+          <h3>
+            <p class="qna-name" aria-label="заголовок элемента">Я выбираю между разными компаниями. В чём ваше отличие?
+            </p><span class="qna-img-bg">
+              <picture class="qna-img">
+                <source srcset="img/plus480.svg" media="(max-width: 480px)"> <img src="img/Plus.svg" alt=""></picture>
+            </span>
+          </h3>
+          <div>
+            <p>
+              Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка, свое?
+              Диких агентство своего о если жизни своих коварный языкового его все наш, меня буквоград грамматики
+              однажды алфавит власти.
+            </p>
+          </div>
+          <h3>
+            <p class="qna-name" aria-label="заголовок элемента">Могу ли я делегировать вам работу / согласование с
+              подрядчиком / организацией? </p><span class="qna-img-bg">
+              <picture class="qna-img">
+                <source srcset="img/plus480.svg" media="(max-width: 480px)"> <img src="img/Plus.svg" alt=""></picture>
+            </span>
+          </h3>
+          <div>
+            <p>
+              Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Свой заглавных
+              предложения великий ты рукопись пустился прямо. Использовало встретил ведущими возвращайся рыбного имени
+              сбить букв одна языкового бросил не.
+            </p>
+            <p>
+              Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem dignissimos quis iure.
+              Enim ex, dolorum voluptatem amet debitis explicabo esse distinctio, illum ut autem libero! Pariatur
+              eligendi modi illo cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempora,
+              odit ullam facere laborum veniam deleniti vel, suscipit necessitatibus sunt iusto magnam est doloremque,
+              possimus eius nulla! Eum, aut facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              temporibus commodi maiores omnis eum ea impedit quae, enim ab consequuntur porro. Nulla quisquam in qui
+              molestiae, aliquam ullam officiis vitae! amet consectetur adipisicing elit. Nesciunt libero veritatis est
+              labore totam ad eligendi inventore quos a autem minima architecto cum distinctio et incidunt suscipit,
+              explicabo nostrum adipisci?
+            </p>
+          </div>
+          <h3>
+            <p class="qna-name" aria-label="заголовок элемента">Могу ли я вернуть деньги на каком-либо из этапов работ?
+            </p><span class="qna-img-bg">
+              <picture class="qna-img">
+                <source srcset="img/plus480.svg" media="(max-width: 480px)"> <img src="img/Plus.svg" alt=""></picture>
+            </span>
+          </h3>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto quam ad repellat deleniti
+              quibusdam. Odit at nemo et sed dolor vero itaque, placeat quae accusamus reprehenderit ratione quis hic
+              excepturi modi tempore rerum temporibus. Beatae alias nobis illum dolor!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore cumque at perspiciatis! Distinctio ex
+              rerum, et id culpa doloremque placeat quasi sapiente voluptatem mollitia voluptatum minima dicta iure
+              inventore deleniti?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-left">
+          <a href="#">
+            <picture class="bottom-logo">
+              <source srcset="img/LogoBottom320.svg" media="(max-width: 320px)">
+              <img src="img/LogoBottom.svg" alt="Evclide">
+            </picture>
+          </a>
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-list-item"><a href="#">О нас</a></li>
+              <li class="footer-nav-list-item"><a href="#">Проекты</a></li>
+              <li class="footer-nav-list-item"><a href="#">Отзывы</a></li>
+              <li class="footer-nav-list-item"><a href="#">Договор оферты</a></li>
+              <li class="footer-nav-list-item"><a href="#">Договор подряда</a></li>
+              <li class="footer-nav-list-item"><a href="#">Конфиденциальность</a></li>
+              <li class="footer-nav-list-item"><a href="#">Партнёрское соглашение</a></li>
+            </ul>
+          </nav>
+          <div class="footer-social">
+            <a href="#" class="footer-social-item">
+              <picture>
+                <source srcset="img/fb320.svg" media="(max-width: 320px)">
+                <img src="img/fb.svg" alt="Facebook-Evclide">
+              </picture>
+            </a>
+            <a href="#" class="footer-social-item">
+              <picture>
+                <source srcset="img/vk320.svg" media="(max-width: 320px)">
+                <img src="img/vk.svg" alt="Vkontakte-Evclide">
+              </picture>
+            </a>
+            <a href="#" class="footer-social-item">
+              <picture>
+                <source srcset="img/instagram320.svg" media="(max-width: 320px)">
+                <img src="img/instagram.svg" alt="Instagramm-Evclide">
+              </picture>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-center">
+          <h2 class="footer-center-h2">Оставить заявку</h2>
+          <form action="https://jsonplaceholder.typicode.com/posts" method="POST" autocomplete="on" class="footer-form">
+            <input placeholder="Фамилия, имя и отчество*" type="text" onfocus="(this.type='text')" name="name" required
+              class="footer-form-item">
+            <input placeholder="E-mail*" type="text" onfocus="(this.type='mail')" name="mail" required
+              class="footer-form-item">
+            <textarea placeholder="Сообщение" name="message" class="footer-textarea"></textarea>
+            <div class="footer-button-agree">
+              <button class="send-form-button">Отправить данные</button>
+              <span class="checkbox-and-text">
+                <input type="checkbox" name="agreement" class="footer-checkbox">
+                <p class="footer-checkbox-text">Согласие на обработку данных</p>
+              </span>
+            </div>
+          </form>
+        </div>
+
+        <div class="footer-right">
+          <p class="footer-right-text">
+            Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
+            разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким
+            образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании
+            стандартных подходов.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Js -->
+
+  <script src="js/swipper.js"></script>
+  <script src="js/accordion.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
